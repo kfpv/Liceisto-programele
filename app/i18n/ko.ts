@@ -47,7 +47,7 @@ const ko: Translations = {
     componentsTab: "컴포넌트",
     debugTab: "디버그",
     communityTab: "커뮤니티",
-    podcastListTab: "팟캐스트",
+    feedTab: "팟캐스트",
   },
   demoCommunityScreen: {
     title: "커뮤니티와 함께해요",
@@ -88,7 +88,7 @@ const ko: Translations = {
     reactotron: "Reactotron 으로 보내기",
     reportBugs: "버그 보고하기",
     demoList: "데모 목록",
-    demoPodcastList: "데모 팟캐스트 목록",
+    demoFeed: "데모 팟캐스트 목록",
     androidReactotronHint:
       "만약에 동작하지 않는 경우, Reactotron 데스크탑 앱이 실행중인지 확인 후, 터미널에서 adb reverse tcp:9090 tcp:9090 을 실행한 다음 앱을 다시 실행해보세요.",
     iosReactotronHint:
@@ -100,9 +100,9 @@ const ko: Translations = {
     windowsReactotronHint:
       "만약에 동작하지 않는 경우, Reactotron 데스크탑 앱이 실행중인지 확인 후 앱을 다시 실행해보세요.",
   },
-  demoPodcastListScreen: {
+  demoFeedScreen: {
     title: "React Native 라디오 에피소드",
-    onlyFavorites: "즐겨찾기만 보기",
+    onlyOfficial: "즐겨찾기만 보기",
     favoriteButton: "즐겨찾기",
     unfavoriteButton: "즐겨찾기 해제",
     accessibility: {

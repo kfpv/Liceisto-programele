@@ -45,7 +45,7 @@ const en = {
     componentsTab: "Components",
     debugTab: "Debug",
     communityTab: "Community",
-    podcastListTab: "Podcast",
+    feedTab: "Feed",
   },
   demoCommunityScreen: {
     title: "Connect with the community",
@@ -86,7 +86,7 @@ const en = {
     reactotron: "Send to Reactotron",
     reportBugs: "Report Bugs",
     demoList: "Demo List",
-    demoPodcastList: "Demo Podcast List",
+    demoFeed: "Demo Podcast List",
     androidReactotronHint:
       "If this doesn't work, ensure the Reactotron desktop app is running, run adb reverse tcp:9090 tcp:9090 from your terminal, and reload the app.",
     iosReactotronHint:
@@ -98,9 +98,9 @@ const en = {
     windowsReactotronHint:
       "If this doesn't work, ensure the Reactotron desktop app is running and reload app.",
   },
-  demoPodcastListScreen: {
-    title: "React Native Radio episodes",
-    onlyFavorites: "Only Show Favorites",
+  demoFeedScreen: {
+    title: "Feed",
+    onlyOfficial: "Only Show Official",
     favoriteButton: "Favorite",
     unfavoriteButton: "Unfavorite",
     accessibility: {

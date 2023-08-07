@@ -47,7 +47,7 @@ const ar: Translations = {
     componentsTab: "عناصر",
     debugTab: "تصحيح",
     communityTab: "واصل اجتماعي",
-    podcastListTab: "البودكاست",
+    feedTab: "البودكاست",
   },
   demoCommunityScreen: {
     title: "تواصل مع المجتمع",
@@ -87,7 +87,7 @@ const ar: Translations = {
     reactotron: "Reactotron ارسل إلى",
     reportBugs: "الابلاغ عن اخطاء",
     demoList: "قائمة تجريبية",
-    demoPodcastList: "قائمة البودكاست التجريبي",
+    demoFeed: "قائمة البودكاست التجريبي",
     androidReactotronHint:
       "اذا لم ينجح ذللك، فتأكد من تشغيل تطبيق الحاسوب الخاص Reactotron، وقم بتشغيل عكس adb tcp:9090 \ntcp:9090 من جهازك الطرفي ، واعد تحميل التطبيق",
     iosReactotronHint:
@@ -97,9 +97,9 @@ const ar: Translations = {
     windowsReactotronHint:
       "اذا لم ينجح ذلك، فتأكد من تشغيل الحاسوب ب Reactotron وأعد تحميل التطبيق",
   },
-  demoPodcastListScreen: {
+  demoFeedScreen: {
     title: "حلقات إذاعية React Native",
-    onlyFavorites: "المفضلة فقط",
+    onlyOfficial: "المفضلة فقط",
     favoriteButton: "المفضل",
     unfavoriteButton: "غير مفضل",
     accessibility: {
