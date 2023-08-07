@@ -58,9 +58,12 @@ const Stack = createNativeStackNavigator<AppStackParamList>()
 
 const AppStack = observer(function AppStack() {
   // @demo remove-block-start
-  const {
-    authenticationStore: { isAuthenticated },
-  } = useStores()
+  // const {
+  //   authenticationStore: { isAuthenticated },
+  // } = useStores()
+
+  // TODO: Remove this line once you've added your authentication logic.
+  const isAuthenticated = true
 
   // @demo remove-block-end
   return (
@@ -72,7 +75,7 @@ const AppStack = observer(function AppStack() {
       {isAuthenticated ? (
         <>
           {/* @demo remove-block-end */}
-          <Stack.Screen name="Welcome" component={Screens.WelcomeScreen} />
+          {/* TODO: Uncomment if welcome screen needed <Stack.Screen name="Welcome" component={Screens.WelcomeScreen} /> */}
           {/* @demo remove-block-start */}
           <Stack.Screen name="Demo" component={DemoNavigator} />
         </>
